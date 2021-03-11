@@ -12,9 +12,26 @@
                 padding-top: 56px;
             }
             .jumbotron{
-                background-color: rgb(34, 34, 161);
+                background-color: rgb(109, 109, 206);
             }
-
+            .backgroundjumbo{
+                background-image: linear-gradient(to right, rgba(89, 225, 240, 0.7), rgb(24, 154, 180,0.70)), url('images/bgjumbo.jpg');
+                background-position: center;
+                height: 500px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: relative;
+            }
+            .button-primer{
+                background-color: #004AAD;
+                color        : #fff;
+                text-shadow: 0px 0px;  
+            }
+            .button-primer:hover {
+                background-color: #fff;
+                color        : #004AAD;
+                text-shadow: 0px 0px;  
+            }
         </style>
     
     </head>
@@ -32,16 +49,14 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Layanan</a>
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#produk">Produk</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Tentang Kami</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#kontak">Kontak</a>
+                        <a class="nav-link" href="#kontak">Contact</a>
                     </li>
                     </ul>
                 </div>
@@ -50,8 +65,15 @@
         
         
         <!--Header-->
-        <header class="jumbotron">
-
+        <header class="jumbotron jumbotron-fluid backgroundjumbo">
+            <div class="container-fluid text-center">
+                <h1 class="display-3" style="color: whitesmoke; padding-top: 200px;">Beyond The Limits</h1>
+                <p class="lead" style="color: whitesmoke;">Make Your Dream Website Come True</p>
+                <p>
+                    <a href="#" class="btn button-primer " role="button">Gabung Sekarang</a>
+                    <a href="#" class="btn btn-secondary " role="button">Pelajari dulu</a>
+                </p>
+            </div>
         </header>
 
         <!--Service-->
